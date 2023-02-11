@@ -14,7 +14,6 @@ const AddPost = ({ onPost }) => {
   return (
     <>
       <form className={classes.add__post__form} onSubmit={submitHandler}>
-        <label className={classes.form__header}>Any 🍵?</label>
         <textarea
           className={classes.post__form}
           id="post"

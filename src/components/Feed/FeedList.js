@@ -6,14 +6,20 @@ import AddPost from "../Post/AddPost";
 const DUMMY_FEED = [
   {
     id: 1,
-    username: "david",
-    post: "hello I love my wife",
-    date: "Feb 9",
+    username: "esxbar",
+    post: "hello I am first",
+    date: "Feb 8",
   },
   {
     id: 2,
-    username: "mariah",
-    post: "hello I love my papi chulo",
+    username: "sxles",
+    post: "hello I am new here",
+    date: "Feb 8",
+  },
+  {
+    id: 3,
+    username: "avxd",
+    post: "cool site",
     date: "Feb 9",
   },
 ];
@@ -26,9 +32,6 @@ const FeedList = ({ user }) => {
       ...prevFeed,
       { id: Math.random() + 5, username: user, post: newPost, date: "Feb 10" },
     ]);
-
-  // console.log(getUser);
-  // console.log(feedList);
 
   const feedHome = feedList.map((feed) => {
     return (

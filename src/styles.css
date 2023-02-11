@@ -13,6 +13,8 @@ html {
 }
 
 body {
+  max-width: 1500px;
+  margin: auto;
   min-height: 100vh;
 }
 
@@ -29,4 +31,8 @@ textarea,
 button,
 select {
   font: inherit;
+}
+
+button {
+  background-color: #6f35fc;
 }
