@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Nav.module.css";
+import ProfileImg from "../Profile/ProfileImg";
 
 const Nav = ({ onLogout }) => {
   return (
@@ -8,6 +9,9 @@ const Nav = ({ onLogout }) => {
       <div>
         <ul className={classes.nav__links}>
           <li>Work in progress...</li>
+          <li>
+            <ProfileImg />
+          </li>
           <li>
             <button
               className={classes.nav__btn}

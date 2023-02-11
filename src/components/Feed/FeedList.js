@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import classes from "./FeedList.module.css";
+import ProfileImg from "../Profile/ProfileImg";
 import Card from "../UI/Card";
 import AddPost from "../Post/AddPost";
 
@@ -39,6 +40,7 @@ const FeedList = ({ user }) => {
         <Card>
           <div className={classes.feed}>
             <div className={classes.user__info}>
+              <ProfileImg />
               <h1 className={classes.user}>@{feed.username}</h1>
               <span className={classes.date}>{feed.date}</span>
             </div>
