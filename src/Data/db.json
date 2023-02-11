@@ -1,0 +1,19 @@
+{
+  "blogs": [
+    {
+      "user": "Naruto",
+      "post": "This is my ninja way",
+      "id": 1
+    },
+    {
+      "user": "Sasuke",
+      "post": "Rogue ninja",
+      "id": 2
+    },
+    {
+      "user": "Sakura",
+      "post": "Useless ninja",
+      "id": 3
+    }
+  ]
+}

@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ReactDOM, { createPortal } from "react-dom";
+import "./styles.css";
+import Nav from "./Nav/Nav";
+import Feed from "./Feed/Feed";
+import Login from "./Login/Login";
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [user, setUser] = useState(null);
+  const login = () => setIsLoggedIn(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {!isLoggedIn &&
+        createPortal(
+          <Login onGetUsername={setUser} onLogin={login} />,
+          document.getElementById("login-page")
+        )}
+      {isLoggedIn && <Nav />}
+      {isLoggedIn && <Feed user={user} />}
+    </>
   );
 }
 

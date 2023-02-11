@@ -1,0 +1,32 @@
+.feed__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-top: 4rem;
+}
+
+.user__info {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.date {
+  opacity: 0.7;
+  margin-left: 1rem;
+}
+
+.post {
+  font-size: 1rem;
+}
+
+.feed {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}

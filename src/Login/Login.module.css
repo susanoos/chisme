@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.form__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.login__header {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.login__header:nth-child(3) {
+  margin-top: 2rem;
+}
+
+.login__button {
+  width: 100px;
+  padding: 0.4rem;
+  margin-top: 1rem;
+}
+
+.login__welcome {
+  font-size: 2.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.login__msg {
+  display: block;
+  opacity: 0.6;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.login__input {
+  font-size: 1.2rem;
+}
