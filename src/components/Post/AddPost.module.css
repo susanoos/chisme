@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .form__header {
