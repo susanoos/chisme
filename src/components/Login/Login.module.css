@@ -28,6 +28,8 @@
   width: 100px;
   padding: 0.4rem;
   margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
 }
 
 .login__welcome {

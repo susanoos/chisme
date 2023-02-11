@@ -24,3 +24,9 @@ a {
 .nav__header {
   font-size: 3rem;
 }
+
+.nav__btn {
+  border: none;
+  width: 120px;
+  border-radius: 10px;
+}

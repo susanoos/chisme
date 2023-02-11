@@ -1,20 +1,20 @@
 import React from "react";
 import classes from "./Nav.module.css";
 
-const Nav = () => {
+const Nav = ({ onLogout }) => {
   return (
     <nav className={classes.navbar}>
       <h1 className={classes.nav__header}>Chisme 🍵</h1>
       <div>
         <ul className={classes.nav__links}>
+          <li>Work in progress...</li>
           <li>
-            <a href="/">Feed</a>
-          </li>{" "}
-          <li>
-            <a href="/">Account</a>
-          </li>{" "}
-          <li>
-            <a href="/">Settings</a>
+            <button
+              className={classes.nav__btn}
+              onClick={() => onLogout(false)}
+            >
+              Sign Out
+            </button>
           </li>
         </ul>
       </div>
