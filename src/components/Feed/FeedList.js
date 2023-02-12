@@ -3,35 +3,15 @@ import classes from "./FeedList.module.css";
 import ProfileImg from "../Profile/ProfileImg";
 import Card from "../UI/Card";
 import AddPost from "../Post/AddPost";
-
-const DUMMY_FEED = [
-  {
-    id: 1,
-    username: "esxbar",
-    post: "hello I am first",
-    date: "Feb 8",
-  },
-  {
-    id: 2,
-    username: "sxles",
-    post: "hello I am new here",
-    date: "Feb 8",
-  },
-  {
-    id: 3,
-    username: "avxd",
-    post: "cool site",
-    date: "Feb 9",
-  },
-];
+import { DUMMY_FEED_DATA } from "../../dummy-data";
 
 const FeedList = ({ user }) => {
-  const [feedList, setFeed] = useState(DUMMY_FEED);
+  const [feedList, setFeed] = useState(DUMMY_FEED_DATA);
 
   const postToFeed = (newPost) =>
     setFeed((prevFeed) => [
       ...prevFeed,
-      { id: Math.random() + 5, username: user, post: newPost, date: "Feb 10" },
+      { id: Math.random() + 25, username: user, post: newPost, date: "Feb 10" },
     ]);
 
   const feedHome = feedList.map((feed) => {

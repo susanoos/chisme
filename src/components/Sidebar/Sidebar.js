@@ -15,7 +15,7 @@ const Sidebar = () => {
       <ul className={classes.sidebar}>
         <li>
           <FontAwesomeIcon icon={faMagnifyingGlass} className={classes.icons} />
-          <label>Search</label>
+          <label>Explore</label>
           <input className={classes.sidebar__search} type="text"></input>
         </li>
         <li>
