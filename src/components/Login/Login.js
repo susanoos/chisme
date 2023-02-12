@@ -34,37 +34,31 @@ const Login = ({ onLogin, onGetUsername }) => {
           Please login to see whats the tea 🍵.
         </span>
       </div>
-      <Card>
-        <form className={classes.form__container} onSubmit={handleSubmit}>
-          <label className={classes.login__header}>
-            Enter email
-            <input
-              className={classes.login__input}
-              type="email"
-              name="email"
-              placeholder="email"
-              onChange={handleEmail}
-              value={email}
-            />
-          </label>
-
-          <label className={classes.login__header}>
-            Enter password
-            <input
-              className={classes.login__input}
-              type="password"
-              name="password"
-              placeholder="password"
-              onChange={handlePassword}
-              value={password}
-            />
-          </label>
-
+      <div className={classes.form__container}>
+        <form className={classes.form} onSubmit={handleSubmit}>
+          <label className={classes.login__header}>Enter email</label>
+          <input
+            className={classes.login__input}
+            type="email"
+            name="email"
+            placeholder="email"
+            onChange={handleEmail}
+            value={email}
+          />
+          <label className={classes.login__header}>Enter password</label>
+          <input
+            className={classes.login__input}
+            type="password"
+            name="password"
+            placeholder="password"
+            onChange={handlePassword}
+            value={password}
+          />
           <button type="submit" className={classes.login__button}>
             Login
           </button>
         </form>
-      </Card>
+      </div>
     </div>
   );
 };
