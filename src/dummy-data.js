@@ -1,19 +1,19 @@
 export const DUMMY_FEED_DATA = [
   {
     id: 1,
-    username: "esxbar",
+    username: "micheal",
     post: "hello I am first",
     date: "Feb 8",
   },
   {
     id: 2,
-    username: "sxles",
+    username: "stanley",
     post: "hello I am new here",
     date: "Feb 8",
   },
   {
     id: 3,
-    username: "avxd",
+    username: "ryan",
     post: "cool site",
     date: "Feb 9",
   },
