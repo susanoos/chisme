@@ -7,7 +7,7 @@ import Login from "./components/Login/Login";
 
 function App() {
   // TODO change 'isLoggedIn' back to false, use localstorage api
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
   const login = () => setIsLoggedIn(true);
 
