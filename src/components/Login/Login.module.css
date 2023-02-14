@@ -58,4 +58,11 @@
 
 .login__input {
   font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .form__container {
+    width: 400px;
+  }
 }
