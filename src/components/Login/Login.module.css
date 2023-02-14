@@ -59,7 +59,7 @@
 .login__input {
   font-size: 1.2rem;
   padding: 0.2rem;
-  border: none;
+  border: 1px solid #fff;
   border-radius: 10px;
 }
 
