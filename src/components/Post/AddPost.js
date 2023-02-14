@@ -9,6 +9,7 @@ const AddPost = ({ onPost }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
+    setPost("");
     onPost(post);
   };
   return (

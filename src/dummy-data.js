@@ -7,7 +7,7 @@ export const DUMMY_FEED_DATA = [
   },
   {
     id: 2,
-    username: "stanley",
+    username: "dwight",
     post: "hello I am new here",
     date: "Feb 8",
   },
@@ -16,23 +16,5 @@ export const DUMMY_FEED_DATA = [
     username: "ryan",
     post: "cool site",
     date: "Feb 10",
-  },
-  {
-    id: 4,
-    username: "pam",
-    post: "my job sucks",
-    date: "Feb 18",
-  },
-  {
-    id: 5,
-    username: "jim",
-    post: "yes it does",
-    date: "Feb 20",
-  },
-  {
-    id: 6,
-    username: "roy",
-    post: "hate both of you",
-    date: "Feb 11",
   },
 ];

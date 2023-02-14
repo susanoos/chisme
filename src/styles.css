@@ -34,6 +34,9 @@ select {
 }
 
 button {
-  background-color: #6f35fc;
+  background-color: #a2d882;
   cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
 }

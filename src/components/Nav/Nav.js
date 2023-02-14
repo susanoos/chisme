@@ -8,15 +8,11 @@ const Nav = ({ onLogout }) => {
       <h1 className={classes.nav__header}>Chisme 🍵</h1>
       <div>
         <ul className={classes.nav__links}>
-          <li>Work in progress...</li>
           <li>
             <ProfileImg />
           </li>
           <li>
-            <button
-              className={classes.nav__btn}
-              onClick={() => onLogout(false)}
-            >
+            <button className={classes.nav__btn} onClick={onLogout}>
               Sign Out
             </button>
           </li>
