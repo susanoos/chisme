@@ -49,9 +49,9 @@
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1050px) {
+@media screen and (min-width: 800px) and (max-width: 1370px) {
   .sidebar__container {
-    width: 18%;
+    width: 16%;
     height: 30%;
   }
 
