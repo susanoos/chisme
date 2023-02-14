@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/chisme/static/css/main.e796968f.css",
-    "main.js": "/chisme/static/js/main.4231c67a.js",
+    "main.css": "/chisme/static/css/main.4b162564.css",
+    "main.js": "/chisme/static/js/main.dcdaee21.js",
     "index.html": "/chisme/index.html",
-    "main.e796968f.css.map": "/chisme/static/css/main.e796968f.css.map",
-    "main.4231c67a.js.map": "/chisme/static/js/main.4231c67a.js.map"
+    "main.4b162564.css.map": "/chisme/static/css/main.4b162564.css.map",
+    "main.dcdaee21.js.map": "/chisme/static/js/main.dcdaee21.js.map"
   },
   "entrypoints": [
-    "static/css/main.e796968f.css",
-    "static/js/main.4231c67a.js"
+    "static/css/main.4b162564.css",
+    "static/js/main.dcdaee21.js"
   ]
 }
