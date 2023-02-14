@@ -5,13 +5,17 @@ import Card from "../UI/Card";
 import AddPost from "../Post/AddPost";
 import { DUMMY_FEED_DATA } from "../../dummy-data";
 
+const currDate = `${new Date().toLocaleDateString("en-US", {
+  month: "short",
+})} ${new Date().toLocaleDateString("en-US", { day: "2-digit" })}`;
+
 const FeedList = ({ user }) => {
   const [feedList, setFeed] = useState(DUMMY_FEED_DATA);
 
   const postToFeed = (newPost) =>
     setFeed((prevFeed) => [
       ...prevFeed,
-      { id: Math.random() + 25, username: user, post: newPost, date: "Feb 10" },
+      { id: Math.random() + 25, username: user, post: newPost, date: currDate },
     ]);
 
   const feedHome = feedList.map((feed) => {
