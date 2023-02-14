@@ -16,11 +16,16 @@ function App() {
   const logout = () => {
     setIsLoggedIn(false);
     localStorage.removeItem("isLoggedIn");
+    localStorage.removeItem("username");
   };
 
   useEffect(() => {
-    if (localStorage.getItem("isLoggedIn")) {
+    if (
+      localStorage.getItem("isLoggedIn") &&
+      localStorage.getItem("username")
+    ) {
       setIsLoggedIn(true);
+      setUser(localStorage.getItem("username"));
     }
   }, []);
 

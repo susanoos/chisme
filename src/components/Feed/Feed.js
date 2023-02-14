@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FeedList from "./FeedList";
 import Sidebar from "../Sidebar/Sidebar";
 // import AddPost from "../Post/AddPost";

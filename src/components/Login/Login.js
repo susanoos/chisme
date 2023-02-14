@@ -13,6 +13,7 @@ const Login = ({ onLogin, onGetUsername }) => {
     e.preventDefault();
     if (email.includes("@") && password.length >= 4) {
       onLogin();
+      localStorage.setItem("username", username);
       onGetUsername(username);
     }
   };
