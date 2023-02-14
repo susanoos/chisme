@@ -8,7 +8,7 @@ const Nav = ({ onLogout }) => {
       <h1 className={classes.nav__header}>Chisme 🍵</h1>
       <div>
         <ul className={classes.nav__links}>
-          <li>
+          <li className={classes.profile__img}>
             <ProfileImg />
           </li>
           <li>

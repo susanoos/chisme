@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./ProfileImg.module.css";
 
-const ProfileImg = () => {
+const ProfileImg = (props) => {
   return (
     <img
       className={classes.img}

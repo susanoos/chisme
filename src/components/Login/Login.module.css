@@ -59,10 +59,12 @@
 .login__input {
   font-size: 1.2rem;
   padding: 0.2rem;
+  border: none;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 500px) {
   .form__container {
-    width: 400px;
+    width: 350px;
   }
 }

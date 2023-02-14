@@ -32,3 +32,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
+@media screen and (max-width: 480px) {
+  .feed__list {
+    /* margin-left: 6rem; */
+  }
+
+  .user {
+    font-size: 1.2rem;
+  }
+}

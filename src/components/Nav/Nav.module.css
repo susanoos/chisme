@@ -32,3 +32,18 @@ a {
   width: 120px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .nav__header {
+    font-size: 2rem;
+  }
+
+  .nav__btn {
+    font-size: 1.2rem;
+    width: 100px;
+  }
+
+  .profile__img {
+    display: none;
+  }
+}
