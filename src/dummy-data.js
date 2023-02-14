@@ -15,7 +15,7 @@ export const DUMMY_FEED_DATA = [
     id: 3,
     username: "ryan",
     post: "cool site",
-    date: "Feb 9",
+    date: "Feb 10",
   },
   {
     id: 4,
