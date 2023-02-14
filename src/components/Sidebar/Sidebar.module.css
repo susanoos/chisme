@@ -33,3 +33,49 @@
   margin-top: 0.2rem;
   width: 200px;
 }
+
+@media screen and (min-width: 1050px) {
+  .sidebar__container {
+    width: 20%;
+    height: 35%;
+  }
+
+  .sidebar {
+    margin-left: 0.8rem;
+  }
+
+  .sidebar__search {
+    width: 190px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1050px) {
+  .sidebar__container {
+    width: 18%;
+    height: 30%;
+  }
+
+  .sidebar {
+    margin-left: 0.8rem;
+  }
+
+  .sidebar__li {
+    font-size: 1.4rem;
+  }
+
+  .sidebar__search {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .sidebar {
+    margin-left: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar__container {
+    display: none;
+  }
+}
