@@ -26,7 +26,7 @@ const AddPost = ({ onPost }) => {
           onChange={postChangeHandler}
         />
 
-        <button className={classes.add__post__button}>Spill</button>
+        <button className={classes.add__post__button}>Post</button>
       </form>
     </>
   );
